@@ -1,0 +1,155 @@
+
+
+
+header {
+  background-color: #f2f2f2;
+  position: sticky;
+  width: 100%;
+  top: 0;
+  z-index: 999;
+
+}
+
+.hero img {
+  float: right;
+}
+
+
+
+
+body {
+   display: block;
+    font-family: 'Georgia', serif;
+    
+    text-rendering: optimizeLegibility;
+   
+    color: #242424
+   
+    min-height: 100vh;
+}
+
+  
+ _ *margin: 0;
+  padding: 0;
+  color: #242424;
+  background-color: #fffafa;_
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 10px 20px;
+  display: flex;
+  gap: 20px;
+}
+
+
+.btn {
+  font-size: 1.5rem;
+  margin-top: 10px;
+  margin-left: 30px;
+  background-color: black;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  border-bottom: 1px solid #242424;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+
+}
+
+.hero {
+  padding: 50px 20px;
+  background-color: #f2f2f2;
+  height: 20rem;
+  gap: 100px;
+  text-align: left;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #f2f2f2;
+ 
+}
+
+section{
+  background-color: #f2f2f2;
+}
+
+.hero h1 {
+  margin-left: 30px;
+  font-weight: lighter;
+  font-size: 70px;
+  margin-bottom: 20px;
+}
+.hero p {
+  opacity: 0.5; 
+  margin-left: 30px;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.features {
+ 
+  background-color: #f2f2f2;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 50px 20px;
+}
+.features h2 {
+  margin-left: 30px;
+   font-weight: lighter;
+  font-size: 30px;
+  
+}
+.features p{
+   margin-left: 30px;
+   font-weight: lighter;
+  font-size: 20px;
+  
+}
+
+
+footer {
+  opacity: 0.9; 
+  text-align: center;
+  padding: 30px;
+  background-color: #f2f2f2;
+  border-top: 1px solid #242424;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 768px) {
+   ul {
+    display: none;
+    flex-direction: column;
+   padding: 0;
+   }
+}
+
+@media screen and (max-width: 768px) {
+   .hero {
+    
+    flex-direction: column;
+    padding: 0;
+  }
+}
+  
+  
+
